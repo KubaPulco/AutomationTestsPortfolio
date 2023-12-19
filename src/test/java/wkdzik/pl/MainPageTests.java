@@ -14,14 +14,21 @@ public class MainPageTests {
     public void testGuwno() throws InterruptedException {
 
 
-
+          BasePage basePage = new BasePage(driver);
           MainPage mainPage = new MainPage(driver);
         driver.manage().window().maximize();
-        driver.get("https://wkdzik.pl");
-        mainPage.acceptCookies();
-        mainPage.clickAndSearch("Spodnie Dresowe");
+                  driver.get("https://wkdzik.pl/ubrania");
 
-        driver.quit();
+        basePage.acceptCookies();
+          Thread.sleep(2000);
+        basePage.sortItems();
+
+
+
+//        mainPage.acceptCookies();
+//        mainPage.clickAndSearch("Spodnie Dresowe");
+
+//        driver.quit();
 
       }
 }

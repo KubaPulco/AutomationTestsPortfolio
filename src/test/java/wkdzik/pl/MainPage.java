@@ -14,9 +14,7 @@ public class MainPage extends BasePage{
         super(driver);
     }
 
-    public void acceptCookies(){
-        driver.findElement(By.xpath("/html/body/div[6]/div[1]/div/div[1]/div[2]/button[1]")).click();
-    }
+
 
     public void clickNowosci(){
         nowosci.click();
