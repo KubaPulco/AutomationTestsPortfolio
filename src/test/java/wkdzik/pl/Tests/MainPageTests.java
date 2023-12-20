@@ -1,8 +1,10 @@
-package wkdzik.pl;
+package wkdzik.pl.Tests;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-
+import wkdzik.pl.BasePage;
+import wkdzik.pl.MainPage;
+import wkdzik.pl.WebDriverConfig;
 
 
 public class MainPageTests {
@@ -13,22 +15,18 @@ public class MainPageTests {
       @Test
     public void testGuwno() throws InterruptedException {
 
-
-          BasePage basePage = new BasePage(driver);
           MainPage mainPage = new MainPage(driver);
         driver.manage().window().maximize();
                   driver.get("https://wkdzik.pl/ubrania");
 
-        basePage.acceptCookies();
+        mainPage.acceptCookies();
           Thread.sleep(2000);
-        basePage.sortItems();
-
-
-
-//        mainPage.acceptCookies();
-//        mainPage.clickAndSearch("Spodnie Dresowe");
-
-//        driver.quit();
-
+        mainPage.sortItemsAscending();
       }
+
+//      @Test
+//    public void basketTest(){
+//          driver.manage().window().maximize();
+//          driver.get("https://wkdzik.pl/ubrania");
+//      }
 }
