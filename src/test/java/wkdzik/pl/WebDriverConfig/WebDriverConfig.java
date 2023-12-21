@@ -1,4 +1,4 @@
-package wkdzik.pl;
+package wkdzik.pl.WebDriverConfig;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

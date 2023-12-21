@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="Page Object Model wkdzik.pl">
-      <change afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" afterDir="false" />
+    <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="Few tests added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig/WebDriverConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,9 +126,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BasketTest.basketGeneralTest" />
+        <item itemvalue="JUnit.MainPageTests.testGuwno (1)" />
         <item itemvalue="JUnit.BasketTest.BasketGeneralTest" />
         <item itemvalue="JUnit.BasketTest" />
-        <item itemvalue="JUnit.MainPageTests.testGuwno (1)" />
         <item itemvalue="JUnit.MainPageTests.testGuwno" />
       </list>
     </recent_temporary>
@@ -158,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702997740829</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Few tests added">
+      <created>1703083711970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703083711970</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Few tests added">
+      <created>1703083754737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703083754737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +186,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Page Object Model wkdzik.pl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model wkdzik.pl" />
+    <MESSAGE value="Few tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Few tests added" />
   </component>
 </project>
