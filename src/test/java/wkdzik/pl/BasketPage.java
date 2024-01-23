@@ -2,10 +2,9 @@ package wkdzik.pl;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+//import org.openqa.selenium.support.ui.ExpectedConditions;
+//import org.openqa.selenium.support.ui.WebDriverWait;
+//import java.time.Duration;
 import java.util.List;
 
 public class BasketPage extends BasePage{
@@ -38,9 +37,6 @@ public class BasketPage extends BasePage{
     @FindBy(xpath = "//*[@id=\"app\"]/form/div[12]/div[3]/div[1]/div[2]/div[8]/div/div/div/span/span/i")
     WebElement findCountryDropdown;
 
-    @FindBy(xpath = "//*[@id=\"app\"]/form/div[12]/div[3]/div[1]/div[2]/div[8]/div/div/div/input")
-    WebElement countryDropdown;
-
     @FindBy(xpath = "//ul[contains(@class, 'el-select-dropdown__list')]//li/span")
     List <WebElement> elementsOfTheCountryList;
 
@@ -67,6 +63,6 @@ public class BasketPage extends BasePage{
             }
         }
         System.out.println("Nie można znaleźć kraju: " + countryName);
-        // Możesz obsłużyć brak znalezienia kraju
+
     }
 }

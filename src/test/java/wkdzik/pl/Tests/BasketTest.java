@@ -21,9 +21,9 @@ public class BasketTest {
         basketPage.acceptCookies();
         ubraniaPage.clickTheFirstItem();
         Thread.sleep(4000);
-        basketPage.fillTheForm("ahaspoko@gmail.com", "Jakub", "Pała","2137");
+        basketPage.fillTheForm("ahaspoko@gmail.com", "Jakub", "Pała","213721372");
         basketPage.clickCountryByName("Niemcy");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.quit();
 
     }

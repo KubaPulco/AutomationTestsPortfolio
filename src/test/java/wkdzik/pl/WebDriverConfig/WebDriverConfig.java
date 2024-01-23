@@ -15,8 +15,8 @@ public class WebDriverConfig {
         if (browser.equals("chrome")) {
 
             ChromeOptions options = new ChromeOptions();
-            // Konfiguracja opcji przeglądarki (np. tryb headless)
             driver = new ChromeDriver(options);
+
         } else if (browser.equals("firefox")) {
 
             FirefoxOptions options = new FirefoxOptions();
@@ -26,9 +26,8 @@ public class WebDriverConfig {
             EdgeOptions options = new EdgeOptions();
 
             driver = new EdgeDriver(options);
-
         }
-        // Dodaj więcej warunków dla innych przeglądarek
+        // Można dodać więcej warunków dla większej liczby przeglądarek
 
         return driver;
     }

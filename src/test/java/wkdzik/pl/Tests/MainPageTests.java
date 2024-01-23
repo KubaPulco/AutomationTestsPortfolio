@@ -12,7 +12,7 @@ public class MainPageTests {
 
 
       @Test
-    public void testGuwno() throws InterruptedException {
+    public void testSortItemsAscending() throws InterruptedException {
 
           MainPage mainPage = new MainPage(driver);
         driver.manage().window().maximize();
@@ -21,5 +21,7 @@ public class MainPageTests {
         mainPage.acceptCookies();
           Thread.sleep(2000);
         mainPage.sortItemsAscending();
+          Thread.sleep(3000);
+        driver.quit();
       }
 }
