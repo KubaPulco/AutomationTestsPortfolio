@@ -60,10 +60,10 @@ Test Cases:
 2. Accept cookies.
 3. Click on the first item on the page (hoodie).
 4. Select size L by clicking the button.
-5. Click the "Add to Cart" button.
-6. Click the "Place Order" button.
+5. Click the "Do koszyka" button.
+6. Click the "Złóż zamówienie" button.
 7. Fill out the form with correct data.
-8. Expand the "Delivery Country" list and choose "Germany."
+8. Expand the "Kraj dostawy" list and choose "Niemcy".
 
 **RESULT:**
 - The user is redirected to the "Clothing" page.
