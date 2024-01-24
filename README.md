@@ -46,3 +46,46 @@ REZULTAT
 1. Użytkownik został przeniesiony na stronę "Ubrania".
 2. Pojawia się lista z opcjami do wyboru: Nazwa produktu A-Z, Nazwa produktu Z-A, Cena rosnąco, Cena malejąco.
 3. Przedmioty na stronie wyśiwetlają się w kolejności od najtańszego do najdroższego.
+
+Test Cases:
+
+**Test Case 1: basketGeneralTest() method in BasketTest class**
+
+*Title:* Adding an item to the basket using an unregistered account.  
+*Objective:* Verify user redirection to the subsequent stages of the purchase.  
+*Initial Conditions:* The user is not logged into the online store application.
+
+**STEPS:**
+1. Go to the page https://wkdzik.pl/ubrania.
+2. Accept cookies.
+3. Click on the first item on the page (hoodie).
+4. Select size L by clicking the button.
+5. Click the "Add to Cart" button.
+6. Click the "Place Order" button.
+7. Fill out the form with correct data.
+8. Expand the "Delivery Country" list and choose "Germany."
+
+**RESULT:**
+- The user is redirected to the "Clothing" page.
+- The user has accepted cookies and can continue using the site.
+- The user goes to the item page.
+- The clothing size is set to L.
+- The item is added to the cart.
+- The user is redirected to the "Basket" page.
+- The form is filled out by the user.
+- "Germany" is selected from the list.
+
+**Test Case 2: testSortItemsAscending() method in MainPageTests class**
+
+*Title:* Checking the correct functioning of the item sorting list on the page.  
+*Objective:* Verify the desired display of products on the page, in this case, from cheapest to most expensive.  
+
+**STEPS:**
+1. Go to the page https://wkdzik.pl/ubrania.
+2. Click on Sort.
+3. Choose "Price ascending" from the list.
+
+**RESULT:**
+- The user is redirected to the "Clothing" page.
+- A list with options to choose from appears: Product name A-Z, Product name Z-A, Price ascending, Price descending.
+- Items on the page are displayed in order from cheapest to most expensive.
