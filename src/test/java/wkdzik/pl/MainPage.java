@@ -24,7 +24,4 @@ public class MainPage extends BasePage{
         searchForm.sendKeys(itemName + Keys.ENTER);
 
     }
-
-
-
 }

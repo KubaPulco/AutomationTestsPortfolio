@@ -12,20 +12,27 @@ public class WebDriverConfig {
     private WebDriver driver;
 
     public WebDriver getDriver(String browser) {
-        if (browser.equals("chrome")) {
+        switch (browser) {
+            case "chrome" -> {
 
-            ChromeOptions options = new ChromeOptions();
-            driver = new ChromeDriver(options);
+                ChromeOptions options = new ChromeOptions();
+                driver = new ChromeDriver(options);
 
-        } else if (browser.equals("firefox")) {
+                break;
+            }
+            case "firefox" -> {
 
-            FirefoxOptions options = new FirefoxOptions();
-            driver = new FirefoxDriver(options);
+                FirefoxOptions options = new FirefoxOptions();
+                driver = new FirefoxDriver(options);
 
-        } else if (browser.equals("edge")) {
-            EdgeOptions options = new EdgeOptions();
+                break;
+            }
+            case "edge" -> {
+                EdgeOptions options = new EdgeOptions();
 
-            driver = new EdgeDriver(options);
+                driver = new EdgeDriver(options);
+                break;
+            }
         }
         // Można dodać więcej warunków dla większej liczby przeglądarek
 

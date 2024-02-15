@@ -70,5 +70,4 @@ public class BasePage {
         priceAscending.click();
         Thread.sleep(2000);
     }
-
 }
