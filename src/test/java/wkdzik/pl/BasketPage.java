@@ -21,17 +21,6 @@ public class BasketPage extends BasePage{
     @FindBy(xpath = "//input[@placeholder='Telefon']")
     WebElement phoneInput;
 
-    @FindBy(xpath = "//label[@class='el-checkbox one-row-checkbox register inline']//span[@class='el-checkbox__inner']")
-    WebElement registerCheckbox;
-
-    @FindBy(xpath = "//span[normalize-space()='Paragon']")
-    WebElement receiptButton;
-
-    @FindBy(xpath = "//span[normalize-space()='Faktura']")
-    WebElement invoiceButton;
-
-    @FindBy(xpath = "//span[contains(text(),'Faktura na os. fizyczną')]")
-    WebElement invoiceButton2;
 
     //Country dropdown
     @FindBy(xpath = "//*[@id=\"app\"]/form/div[12]/div[3]/div[1]/div[2]/div[8]/div/div/div/span/span/i")

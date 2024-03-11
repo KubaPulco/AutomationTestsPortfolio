@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="hotfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +225,42 @@
       <option name="project" value="LOCAL" />
       <updated>1708018866863</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hotfix">
+      <created>1710180728443</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710180728443</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hotfix">
+      <created>1710180771562</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710180771562</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hotfix">
+      <created>1710181003650</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710181003650</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hotfix">
+      <created>1710181009545</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710181009545</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hotfix">
+      <created>1710181049711</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710181049711</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
