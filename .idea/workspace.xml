@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="hotfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/UbraniaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig/WebDriverConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BasketTest">
+  <component name="RunManager" selected="JUnit.BasketTest.basketGeneralTest">
     <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wkdzik.plTesty" />
       <extension name="coverage">
@@ -132,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketTest" />
         <item itemvalue="JUnit.BasketTest.basketGeneralTest" />
         <item itemvalue="JUnit.MainPageTests.testSortItemsAscending" />
+        <item itemvalue="JUnit.BasketTest" />
         <item itemvalue="JUnit.MainPageTests.testGuwno (1)" />
         <item itemvalue="JUnit.BasketTest.BasketGeneralTest" />
       </list>
@@ -191,7 +186,49 @@
       <option name="project" value="LOCAL" />
       <updated>1706099464676</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hotfix">
+      <created>1708018274566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018274566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hotfix">
+      <created>1708018326491</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018326491</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hotfix">
+      <created>1708018353095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018353095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hotfix">
+      <created>1708018357850</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018357850</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hotfix">
+      <created>1708018788724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018788724</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hotfix">
+      <created>1708018866863</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018866863</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +247,8 @@
     <MESSAGE value="Few tests added" />
     <MESSAGE value="update" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wkdzik_plTesty$BasketTest.ic" NAME="BasketTest Coverage Results" MODIFIED="1708016624972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

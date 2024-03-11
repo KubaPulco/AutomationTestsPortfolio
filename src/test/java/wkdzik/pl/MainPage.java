@@ -14,9 +14,6 @@ public class MainPage extends BasePage{
 
 
 
-    public void clickNowosci(){
-        nowosci.click();
-    }
 
     public void clickAndSearch(String itemName) throws InterruptedException {
         search.click();
