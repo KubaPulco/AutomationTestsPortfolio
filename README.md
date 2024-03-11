@@ -57,28 +57,28 @@ Test Cases:
 *Objective:* Verify user redirection to the subsequent stages of the purchase.  
 *Initial Conditions:* The user is not logged into the online store application.
 
-STEP
+STEPS
 
-1.Go to the website https://wkdzik.pl/ubrania.
-2.Accept cookies.
-3.Choose the product type from the dropdown list -> "Bluzy" (Hoodies).
-4.Select the purple hoodie.
-5.Choose size XS by clicking the button.
-6.Click the "Do koszyka" (Add to cart) button.
-7.Click the "Złóż zamówienie" (Place an order) button.
-8.Fill out the form with correct data.
-9.Expand the "Kraj dostawy" (Country of delivery) list and select "Niemcy" (Germany).
+1. Go to the website https://wkdzik.pl/ubrania.
+2. Accept cookies.
+3. Choose the product type from the dropdown list -> "Bluzy" (Hoodies).
+4. Select the purple hoodie.
+5. Choose size XS by clicking the button.
+6. Click the "Do koszyka" (Add to cart) button.
+7. Click the "Złóż zamówienie" (Place an order) button.
+8. Fill out the form with correct data.
+9. Expand the "Kraj dostawy" (Country of delivery) list and select "Niemcy" (Germany).
 RESULT
 
-1.The user is redirected to the "Ubrania" (Clothes) page.
-2.The user has accepted cookies and can continue using the website.
-3.The user navigates to the page with hoodies.
-4.The user goes to the page with the selected purple hoodie and the option to choose the size.
-5.The size of the clothing is set to L.
-6.The item is added to the cart.
-7.The user is redirected to the "Basket" page.
-8.The form is filled out by the user.
-9."Niemcy" (Germany) is selected from the list.
+1. The user is redirected to the "Ubrania" (Clothes) page.
+2. The user has accepted cookies and can continue using the website.
+3. The user navigates to the page with hoodies.
+4. The user goes to the page with the selected purple hoodie and the option to choose the size.
+5. The size of the clothing is set to L.
+6. The item is added to the cart.
+7. The user is redirected to the "Basket" page.
+8. The form is filled out by the user.
+9. "Niemcy" (Germany) is selected from the list.
 
 **Test Case 2: testSortItemsAscending() method in MainPageTests class**
 
@@ -91,6 +91,6 @@ RESULT
 3. Choose "Price ascending" from the list.
 
 **RESULT:**
-- The user is redirected to the "Clothing" page.
-- A list with options to choose from appears: Product name A-Z, Product name Z-A, Price ascending, Price descending.
-- Items on the page are displayed in order from cheapest to most expensive.
+1. The user is redirected to the "Clothing" page.
+2. A list with options to choose from appears: Product name A-Z, Product name Z-A, Price ascending, Price descending.
+3. Items on the page are displayed in order from cheapest to most expensive.
