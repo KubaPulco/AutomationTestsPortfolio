@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="15126339-619b-452c-baeb-8c651bb2aac0" name="Changes" comment="hotfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/Tests/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wkdzik/pl/WebDriverConfig/WebDriverConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Qba/IdeaProjects/wkdzik.plTesty&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Qba/IdeaProjects/wkdzik.plTesty",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.BasketTest.basketGeneralTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.MainPageTests.testSortItemsAscending">
     <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wkdzik.plTesty" />
       <extension name="coverage">
@@ -124,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketTest.basketGeneralTest" />
         <item itemvalue="JUnit.MainPageTests.testSortItemsAscending" />
+        <item itemvalue="JUnit.BasketTest.basketGeneralTest" />
         <item itemvalue="JUnit.BasketTest" />
         <item itemvalue="JUnit.MainPageTests.testGuwno (1)" />
         <item itemvalue="JUnit.BasketTest.BasketGeneralTest" />
@@ -260,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710181049711</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="hotfix">
+      <created>1710181327512</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710181327513</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

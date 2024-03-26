@@ -16,7 +16,7 @@ public class BasketTest {
     UbraniaPage ubraniaPage = new UbraniaPage(driver);
 
     @Test
-    public void basketGeneralTest() throws InterruptedException {
+    public void basketGeneralTest()  {
         try {
             logger.info("Rozpoczęcie testu basketGeneralTest");
 

@@ -11,9 +11,9 @@ public class MainPageTests {
     WebDriverConfig config = new WebDriverConfig();
     WebDriver driver = config.getDriver("chrome") ; // Wybór przeglądarki chrome,firefox,edge
     MainPage mainPage = new MainPage(driver);
-    private static Logger logger = LogManager.getLogger(MainPageTests.class);
+    private static final Logger logger = LogManager.getLogger(MainPageTests.class);
       @Test
-    public void testSortItemsAscending() throws InterruptedException {
+    public void testSortItemsAscending() {
           try {
               logger.info("Rozpoczynam test testSortItemsAscending");
               driver.manage().window().maximize();

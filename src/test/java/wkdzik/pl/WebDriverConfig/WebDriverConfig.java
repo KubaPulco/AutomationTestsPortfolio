@@ -18,20 +18,17 @@ public class WebDriverConfig {
                 ChromeOptions options = new ChromeOptions();
                 driver = new ChromeDriver(options);
 
-                break;
             }
             case "firefox" -> {
 
                 FirefoxOptions options = new FirefoxOptions();
                 driver = new FirefoxDriver(options);
 
-                break;
             }
             case "edge" -> {
                 EdgeOptions options = new EdgeOptions();
 
                 driver = new EdgeDriver(options);
-                break;
             }
         }
         // Można dodać więcej warunków dla większej liczby przeglądarek
